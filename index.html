@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <script type="text/javascript" src="modules/lodash.min.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>成長日記</title>
+</head>
+
+<body>
+  <main>
+    <div class="title">
+      <h1>Growth Diary</h1>
+    </div>
+    <img id="pic" src="imgs/43D92AF6-F60E-40A7-8999-295764D4EE13-70167-00003CC0A7C30691.JPG">
+    <script>
+      'use strict'
+      const img = ["imgs/43D92AF6-F60E-40A7-8999-295764D4EE13-70167-00003CC0A7C30691.JPG", "imgs/IMG_3242.JPG", "imgs/IMG_3184.JPG"];
+
+      let count = -1;
+
+      picChange();
+
+      function picChange() {
+        count++;
+        if (count == img.length) count = 0;
+        //画像選択
+        document.getElementById("pic").src = img[count];
+        //秒数の指定
+        setTimeout("picChange()", 6000);
+      };
+    </script>
+
+  </main>
+
+  <div class="sub fade-in fade-in-up box">
+    <img src="imgs/yukisan.jpg" alt="自己紹介写真">
+    <p>笠井　結稀　~Yuki Kasai~</p>
+    <p>2022.08.13 (5ヶ月)</p>
+    <p>time PM1:11</p>
+    <p>weight 2694g</p>
+    <p>height 49.0cm</p>
+
+  </div>
+
+
+
+
+  <div class="box-inner">
+
+    <div class="fade-in fade-in-right box1">
+      <h1>~0ヶ月~</h1>
+      <img id="pic1" src="imgs/001.JPG">
+    </div>
+    <script>
+      'use strict'
+      const img1 = ["imgs/001.JPG", "imgs/003.JPG", "imgs/004.JPEG"];
+
+      let count1 = -1;
+
+      picChange1();
+
+      function picChange1() {
+        count1++;
+        if (count1 == img1.length) count1 = 0;
+        //画像選択
+        document.getElementById("pic1").src = img1[count1];
+        //秒数の指定
+        setTimeout("picChange1()", 4000);
+      };
+    </script>
+    <div class="fade-in fade-in-left box2">
+      <h1>~1ヶ月~</h1>
+      <img id="pic2" src="imgs/011.JPEG">
+    </div>
+    <script>
+      'use strict'
+      const img2 = ["imgs/011.JPEG", "imgs/012.JPEG", "imgs/013.jpg"];
+
+      let count2 = -1;
+
+      picChange2();
+
+      function picChange2() {
+        count2++;
+        if (count2 == img2.length) count2 = 0;
+        //画像選択
+        document.getElementById("pic2").src = img2[count2];
+        //秒数の指定
+        setTimeout("picChange2()", 4000);
+      };
+    </script>
+    <div class="fade-in fade-in-right box3">
+      <h1>~2ヶ月~</h1>
+      <img id="pic3" src="imgs/021.JPEG">
+      <script>
+        'use strict'
+        const img3 = ["imgs/021.JPEG", "imgs/022.JPG", "imgs/023.JPG"];
+
+        let count3 = -1;
+
+        picChange3();
+
+        function picChange3() {
+          count3++;
+          if (count3 == img3.length) count3 = 0;
+          //画像選択
+          document.getElementById("pic3").src = img3[count3];
+          //秒数の指定
+          setTimeout("picChange3()", 4000);
+        };
+      </script>
+    </div>
+    <div class="fade-in fade-in-left box4">
+      <h1>~3ヶ月~</h1>
+      <img id="pic4" src="imgs/031.JPEG">
+    </div>
+    <script>
+      'use strict'
+      const img4 = ["imgs/031.JPEG", "imgs/032.JPEG", "imgs/033.JPEG"];
+
+      let count4 = -1;
+
+      picChange4();
+
+      function picChange4() {
+        count4++;
+        if (count4 == img4.length) count4 = 0;
+        //画像選択
+        document.getElementById("pic4").src = img4[count4];
+        //秒数の指定
+        setTimeout("picChange4()", 4000);
+      };
+    </script>
+    <div class="fade-in fade-in-right box5">
+      <h1>~4ヶ月~</h1>
+      <img id="pic5" src="imgs/041.JPEG">
+    </div>
+    <script>
+      'use strict'
+      const img5 = ["imgs/041.JPEG", "imgs/042.JPEG", "imgs/043.JPEG"];
+
+      let count5 = -1;
+
+      picChange5();
+
+      function picChange5() {
+        count5++;
+        if (count5 == img5.length) count5 = 0;
+        //画像選択
+        document.getElementById("pic5").src = img5[count5];
+        //秒数の指定
+        setTimeout("picChange5()", 4000);
+      };
+    </script>
+    <div class="fade-in fade-in-right box6">
+      <h1>~５ヶ月~</h1>
+      <img id="pic6" src="imgs/051.JPEG">
+    </div>
+    <script>
+      'use strict'
+      const img6 = ["imgs/051.JPEG", "imgs/052.JPEG", "imgs/053.JPG", "imgs/054.JPG"];
+
+      let count6 = -1;
+
+      picChange6();
+
+      function picChange6() {
+        count6++;
+        if (count6 == img6.length) count6 = 0;
+        //画像選択
+        document.getElementById("pic6").src = img6[count6];
+        //秒数の指定
+        setTimeout("picChange6()", 4000);
+      };
+    </script>
+  </div>
+  <div class="fade-in fade-in-down box7">
+    <h2>〜最後に〜</h2>
+    <p> DIGを通じてとても楽し時間を過ごせました。</p>
+    <p>配列が出てきたあたりから難しくなり、for in の日休んでしまったことで</p>
+    <p>一気についていけなくなり取り返すのにとても苦労しました。</p>
+    <p>ですがトヨタ車体の仲間の協力、ペアワークでペアになった方が親切に教えてくださり</p>
+    <p> とても楽しく勉強することができました。</p>
+    <p> また、もともとHP制作に興味がありHTML・CSSを使用するDOMが出てきたあたりから</p>
+    <p> 本格的に楽しくなり時間を忘れるくらい熱中できました。</p>
+    <p> もともと現場のライン作業員だった私にこのような機会を</p>
+    <p> 与えてくださった職場の皆さん、DIGの方々に感謝です。</p>
+    <p> これからも習ったとこを活かして会社のデジタル化に貢献していきたいと思います。</p>
+    <p> ありがとうございました。</p>
+    <p>〜おわり〜</p>
+  </div>
+  <script>
+    let fadeInTarget = document.querySelectorAll('.fade-in');
+    window.addEventListener('scroll', () => {
+      for (let i = 0; i < fadeInTarget.length; i++) {
+        const rect = fadeInTarget[i].getBoundingClientRect().top;
+        const scroll = window.pageYOffset || document.documentElement.scrollTop;
+        const offset = rect + scroll;
+        const windowHeight = window.innerHeight; // 現在のブラウザの高さ
+        if (scroll > offset - windowHeight + 300) {
+          fadeInTarget[i].classList.add('scroll-in');
+        }
+      }
+    });
+  </script>
+
+</body>
+
+
+</html>
