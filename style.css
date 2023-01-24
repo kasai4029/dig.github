@@ -1,0 +1,519 @@
+@charset "UFT-8";
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(imgs/1234.jpg);
+  background-size: 1400px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  margin-top: 10px;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  text-align: center;
+}
+
+.title {
+  width: 400px;
+  text-align: center;
+  margin-top: 25%;
+  color: gray;
+  font-size: 60px;
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 300px;
+}
+
+img {
+  width: 1070px;
+  height: 850px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.box {
+  width: 600px;
+  height: 600px;
+  margin: 800px auto 0;
+
+}
+
+#pic {
+  animation: imgfade 6s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.sub {
+  background-color: white;
+  height: 700px;
+  text-align: center;
+  color: gray;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sub>img {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+}
+
+.box-inner {
+  max-width: 700px;
+  margin: 250px auto;
+  padding: 0 40px;
+  margin-top: -600px;
+}
+
+.box1 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 800px auto 0;
+  margin-left: 200px;
+}
+
+.box1>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box1>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box2 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 450px auto 0;
+  margin-left: -350px;
+}
+
+.box2>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box2>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box3 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 450px auto 0;
+  margin-left: 200px;
+}
+
+.box3>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box3>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box4 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 450px auto 0;
+  margin-left: -350px;
+}
+
+.box4>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box4>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box5 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 450px auto 0;
+  margin-left: 200px;
+}
+
+.box5>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box5>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box6 {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: 450px auto 0;
+  margin-left: -350px;
+}
+
+.box6>img {
+
+  width: 850px;
+  height: 520px;
+  margin-left: 3px;
+}
+
+.box6>h1 {
+  font-size: 70px;
+  margin-left: 290px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.box7 {
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 350px;
+  width: 1000px;
+  height: 1000px;
+  font-size: 24px;
+  color: gray;
+}
+
+.fade-in {
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, transform;
+}
+
+.fade-in-up {
+  transform: translate(0, 50px);
+}
+
+.fade-in-down {
+  transform: translate(0, -50px);
+}
+
+.fade-in-left {
+  transform: translate(-50px, 0);
+}
+
+.fade-in-right {
+  transform: translate(50px, 0);
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+#pic1 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+#pic2 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#pic3 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+#pic4 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+#pic5 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#pic6 {
+  animation: imgfade 4s infinite;
+  opacity: 0;
+}
+
+@keyframes imgfade {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
